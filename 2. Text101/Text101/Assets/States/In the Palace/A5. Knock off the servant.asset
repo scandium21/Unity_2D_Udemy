@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A5. Knock off the servant
+  m_EditorClassIdentifier: 
+  storyText: "There's no time to hide! You've got no choice but to use One-Yang Finger
+    with great Inner Power so the servant wouldn't even understand what happened to
+    him since he has no Kungfu at all.\n\nOk, you put him down. As you were about
+    to leave, suddenly another person in black came out underneath the Emperor's chair.
+    \n\nWho the heck is this person? You can't read the vibe, you don't know what
+    to do.\n\n1. Get out of the Palace and send out the critical information on the
+    booklet\n2. Ask the person about his/her business here"
+  nextStates:
+  - {fileID: 11400000, guid: 830673cb5429f4b1abcd3b9e10f5bb63, type: 2}
+  - {fileID: 11400000, guid: 680df817849da498c93d6b9288399f18, type: 2}

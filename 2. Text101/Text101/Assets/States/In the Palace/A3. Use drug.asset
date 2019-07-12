@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A3. Use drug
+  m_EditorClassIdentifier: 
+  storyText: "You know when to avoid unnecessary risks, that's why you carry the powerful
+    sleeping potion with you all the time. All you need to do is to pour a few drops
+    into the Emperor's teacup. \n\nYou move quickly on the roof into the room where
+    servants prepare tea. Climbing down quietly, tap a few drops of potion into the
+    tea pot, then back to the roof again. The servant is half asleep and far less
+    alert than usual. \n\nNow the Emperor drinks the new tea, and 10 minutes later,
+    he falls asleep. You climbed down, half hour has past, you open the booklet, read
+    every word of it. In shock, you accidentally knocked off the teacup and the water
+    spreads onto the booklet. Hearing the sound, the servant rushes in. You are about
+    to be discovered, what to do?\n\n1. Hide underneath the chair\n2. Knock off the
+    servant and leave"
+  nextStates:
+  - {fileID: 11400000, guid: de24e00901697490c848fa729f44081b, type: 2}
+  - {fileID: 11400000, guid: c8963e53ffdad42c68d4194969c6e30d, type: 2}

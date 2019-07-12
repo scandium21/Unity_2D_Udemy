@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A6. See ya later!
+  m_EditorClassIdentifier: 
+  storyText: "You hate trouble. Whatever this person is, you don't want to know. Plus,
+    it's the information on the booklet that your client needs, not the extra stuff.
+    Doing things that are not in the contract? Hell no.\n\nSo you fly to the roof
+    with ease, run as fast and quietly as you can. You know the map of the Palace
+    so well that in 10 minutes you should be in the safe zone. \n\nBut you felt followed.
+    Stopped at a convert corner, you discovered the person after you is the person
+    in the Chamber. \"You have to come with me.\" she said.\n\n1. Make a deal with
+    her\n2. Stay loyal to your client"
+  nextStates:
+  - {fileID: 11400000, guid: 1d35a17a63fe344af8a44587cd680d4a, type: 2}
+  - {fileID: 11400000, guid: 0e935da53f59142be9dc17e0b3242a25, type: 2}

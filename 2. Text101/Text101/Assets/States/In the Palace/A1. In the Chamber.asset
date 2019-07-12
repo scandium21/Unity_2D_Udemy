@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A1. In the Chamber
+  m_EditorClassIdentifier: 
+  storyText: "You're in the Emperor's chamber alone. It's 2 hours past midnight, you've
+    got 1 hour to find the document. Suddenly, you hear foot steps coming towards
+    the chamber. Who could it be? You climb to the roof quietly and hide there.\r\n\r\nIt
+    is the Emperor himself! Damn. He must be too worried to sleep. \r\nHe takes out
+    a thin book from his chest pocket. No wonder you couldn't find it, he had it with
+    him!\r\n\r\nHow could you take a look at the document? You can:\r\n\r\n1. Wait
+    until he leaves.\r\n2. Use martial art or drug to put him to sleep quietly."
+  nextStates:
+  - {fileID: 11400000, guid: b8100a1178c244bc3bf60564619fbacb, type: 2}
+  - {fileID: 11400000, guid: aa2c0fdd7ebb249fa95b2d602dd157f6, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: E1. Accept the offer
+  m_EditorClassIdentifier: 
+  storyText: "Sure Princess! You have long admired your intelligence and personality
+    (?), let's do this! \n\nIt turns out, the Princess is the boss of your client,
+    not only can you deliver your info on time, you also get paid a ton by your client's
+    boss, now you get to work directly with her!\n\nHow cool is that :)\n\nWhat do
+    you want to do next?\n\n1. Play again\n2. Return to Intro"
+  nextStates:
+  - {fileID: 11400000, guid: 30f08bbfe37c20549b6e043bd90833fa, type: 2}
+  - {fileID: 11400000, guid: 8bbbaf980802e4852a4c0904545117d9, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A2. Wait until he leaves
+  m_EditorClassIdentifier: 
+  storyText: "Okay. You hate the idea of being in the same room with Emperor Zhao,
+    but you decided to wait until he puts down the document, because you don't want
+    to risk being discovered, and you must get the information on that booklet.\n\nWhat
+    if he stays here for the rest of the night? You realized you don't know the Emperor's
+    habits and preferences. There's only 1 hour left after all. \n\nThe Emperor reads
+    the booklet and make notes on it, then shakes his head, sighed and rubs his forehead.
+    Looks like he'll be here for a while you must act fast, you decide to use sleeping
+    potion to put him asleep.\n\n1. Use sleeping potion.  "
+  nextStates:
+  - {fileID: 11400000, guid: aa2c0fdd7ebb249fa95b2d602dd157f6, type: 2}

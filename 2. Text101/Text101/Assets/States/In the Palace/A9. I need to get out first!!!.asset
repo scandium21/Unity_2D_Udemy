@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A9. I need to get out first!!!
+  m_EditorClassIdentifier: 
+  storyText: 'Well sorry I can''t trust you, I need to get out, it''s way past the
+    hour. My client is waiting for my info!!!
+
+
+    Are you sure?
+
+
+    1. Yeah, let''s go
+
+    2. No, I think I''ll make a deal with her'
+  nextStates:
+  - {fileID: 11400000, guid: 514bf6b9db97b465092f306b8a3908a8, type: 2}
+  - {fileID: 11400000, guid: 62a21d0bf560d4192b8be64bed5d06bc, type: 2}

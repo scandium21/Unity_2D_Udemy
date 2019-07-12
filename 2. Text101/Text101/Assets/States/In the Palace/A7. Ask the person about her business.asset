@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A7. Ask the person about her business
+  m_EditorClassIdentifier: 
+  storyText: "You hate trouble. But sometimes to make money is to deal with trouble.
+    And you've got this annoying quality of following things through. So you decide
+    to know this stranger better.\n\n\"Who the heck are you and how long have you
+    been here?\" \n\n\"You have to come with me.\" Her voice is cold. \"I know who
+    you are and you won't be able to make it out without me.\" \n\nWhat the heck is
+    she talking about? I'll get out the same way as I got in.  \n\n1. Stay with her\n2.
+    Get out anyway"
+  nextStates:
+  - {fileID: 11400000, guid: 1d35a17a63fe344af8a44587cd680d4a, type: 2}
+  - {fileID: 11400000, guid: 0e935da53f59142be9dc17e0b3242a25, type: 2}

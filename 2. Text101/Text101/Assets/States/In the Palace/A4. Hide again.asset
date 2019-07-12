@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A4. Hide again
+  m_EditorClassIdentifier: 
+  storyText: "Shit. You roll under the Emperor's chair to avoid the servant. Guess
+    what? You're not alone there! There's a person also dressed in black and god knows
+    how long s/he's been there. \n\nYou were in double shock now, but couldn't do
+    anything but wait. The servant thought the Emperor fell asleep due to tiredness
+    and knocked off the teacup. He swiftly cleans up the desk, and puts a blanket
+    on top of the Emperor. They know better to not waken him.\n\nYou'd better leave.
+    There's critical information on the booklet you need to send out. But who is this
+    other person here? What to do with him or her?\n\n1. Leave him/her alone, get
+    out yourself first\n2. Ask the person about his/her business here"
+  nextStates:
+  - {fileID: 11400000, guid: 830673cb5429f4b1abcd3b9e10f5bb63, type: 2}
+  - {fileID: 11400000, guid: 680df817849da498c93d6b9288399f18, type: 2}

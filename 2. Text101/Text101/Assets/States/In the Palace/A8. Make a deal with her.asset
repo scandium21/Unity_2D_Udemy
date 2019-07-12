@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1ea4b3fbb115b498cbc9702c0f4e9c, type: 3}
+  m_Name: A8. Make a deal with her
+  m_EditorClassIdentifier: 
+  storyText: "You want to make sure that you'll be safe. She seems to understand your
+    concern \"You're a professional thief working by contract, there is no interest
+    conflict or bad history between us, you can be sure that you're safe, however,
+    if you don't come with me, I'll make sure the Royal Army will have you in jail
+    this time tomorrow.\" \n\nThe heck! Does she have royal connection here? And how
+    the hell does she know my line of work? I'm nobody, what does she want from me?
+    Although perplexed, you followed her all the way to the Princess Mansion in the
+    Palace. Is she.. the princess??!!\n\nShe reveals her identity of the Princess
+    and the reason she wants me here: to work for her as a special agent. I couldn't
+    believe my eyes and ears! What should I do?\n\n1. Accept her offer\n2. Decline
+    her offer"
+  nextStates:
+  - {fileID: 11400000, guid: 62a21d0bf560d4192b8be64bed5d06bc, type: 2}
+  - {fileID: 11400000, guid: 514bf6b9db97b465092f306b8a3908a8, type: 2}
