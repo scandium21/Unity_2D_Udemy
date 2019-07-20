@@ -905,7 +905,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1936453493}
-        m_MethodName: LoadNextScene
+        m_MethodName: LoadNextSceneFinal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -994,6 +994,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1936453491}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ff05d14d54c27747b913a8e8c55d11b, type: 3}
+  m_Script: {fileID: 11500000, guid: d02d64e4c70230140aee89fe8ff5509a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
