@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameStatus : MonoBehaviour
+public class GameSession : MonoBehaviour
 {
     // config parameters
     [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
     [SerializeField] int pointsPerBlockDestroyed = 2;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] bool isAutoPlayEnabled; // only allowing user to change this in Unity
 
     // state variables
     [SerializeField] int currentScore = 0;
 
     private void Awake()
     {
-        int gameStatusCount = FindObjectsOfType<GameStatus>().Length;
+        int gameStatusCount = FindObjectsOfType<GameSession>().Length;
         if (gameStatusCount > 1)
         {
             gameObject.SetActive(false);
@@ -43,5 +44,15 @@ public class GameStatus : MonoBehaviour
     {
         currentScore += pointsPerBlockDestroyed;
         scoreText.text = currentScore.ToString();
+    }
+
+    public void ResetScore()
+    {
+        Destroy(gameObject);
+    }
+
+    public bool IsAutoPlayEnabled()
+    {
+        return isAutoPlayEnabled;
     }
 }

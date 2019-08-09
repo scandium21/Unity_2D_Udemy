@@ -9,5 +9,6 @@ public class LoseCollider : MonoBehaviour
     {
         // Load up the Game Over scene using string reference
         SceneManager.LoadScene("Game Over");
+        //FindObjectOfType<GameStatus>().ResetScore();
     }
 }
