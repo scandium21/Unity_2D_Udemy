@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7975456824427837771}
   - component: {fileID: 3629269713945353121}
   - component: {fileID: 3241509573330230122}
+  - component: {fileID: 2268996300972076948}
   m_Layer: 9
   m_Name: Enemy Red 1
   m_TagString: Untagged
@@ -117,10 +118,10 @@ MonoBehaviour:
   deathVFX: {fileID: 9208287568824974758, guid: 506a1a258d6fdb14486fda43ee7bf73a,
     type: 3}
   durationOfExplosion: 1
-  deathSFX: {fileID: 8300000, guid: 372bdf2108924d54fafb20e1318913c5, type: 3}
+  deathSFX: {fileID: 8300000, guid: d230ad8788cc7c84c8535a1670698f20, type: 3}
   shootSFX: {fileID: 8300000, guid: 06da6bff7c85c8245bfedd197c68c1ce, type: 3}
-  deathVFXVolume: 0.5
-  shootSFXVolume: 0.25
+  deathVFXVolume: 0.514
+  shootSFXVolume: 0.048
 --- !u!60 &3629269713945353121
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -188,4 +189,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9368eaeb99797c4478674cf533754381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 200
+--- !u!50 &2268996300972076948
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942905529108032913}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
