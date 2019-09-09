@@ -30,6 +30,7 @@ public class EnemyMovement : MonoBehaviour
 
     private bool IsFacingRight()
     {
+        // the sprite is always left facing
         return transform.localScale.x < 0;
     }
 
