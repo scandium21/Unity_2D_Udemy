@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -56,12 +57,12 @@ TagManager:
   - name: Hazrds
     uniqueID: 3001120311
     locked: 0
-  - name: Interactables
-    uniqueID: 3327277609
-    locked: 0
   - name: Player
     uniqueID: 1876290287
     locked: 0
   - name: Foreground
     uniqueID: 3189744343
+    locked: 0
+  - name: Interactables
+    uniqueID: 3327277609
     locked: 0
